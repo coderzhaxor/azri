@@ -15,7 +15,7 @@ body{
 }
 
 .container{
-    height: 120vh;
+    min-height: 120vh;
     width: 90%;
     position: relative;
     z-index: 1;
@@ -145,13 +145,10 @@ body{
 }
 
 #search-info {
-    position: absolute !important;
     z-index: 99 !important;
 }
 
-.search-box {
-    margin-top: 200px;
-}
+
 
 
 
@@ -171,7 +168,9 @@ body{
 
 /* Tablet */
 @media (min-width: 768px) and (max-width: 990px) {
-    
+    .search-box {
+        margin-top: 200px;
+    }
 }
 
 /* laptop 1200px */
